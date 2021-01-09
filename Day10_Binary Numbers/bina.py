@@ -7,7 +7,7 @@ array=''.join(data1)
 print(array)
 data2=[1,2,3]
 #list comprehension
-array_1=''.join(str(e) for e in data2)
+array_1=''.join([str(e) for e in data2])
 arr=[]
 for elem in data2:
     arr.append(str(elem))
