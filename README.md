@@ -13,7 +13,7 @@ This repository contains the coding challenges and some algorithms problems whic
 4. Run the python files in your terminal using this command python file.py.
 
 ## Contributing
-### This repository is owned by [https://github.com/EstherWaweru] . To contribute to this project raise an issue .
+This repository is owned by [https://github.com/EstherWaweru] . To contribute to this project raise an issue .
 
 
 
