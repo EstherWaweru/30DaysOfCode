@@ -2,7 +2,7 @@
 #### 30DaysOfCode HackerRank Algorithm Solutions
 
 ## Description
-This repository contains the coding challenges and some algorithms problems which are available in hackerrank.The solutions are written in python language.They can be easily transalated to any language of your choice.The code is under various daily solution folders.
+This repository contains the coding challenges and some algorithms problems which are available in hackerrank.The solutions are written in python3.6 and java 8.0 language.They can be easily transalated to any language of your choice.The code is under various daily solution folders.
 
 
 ## Installation
