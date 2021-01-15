@@ -5,22 +5,22 @@ phoneBook={}
 
 for i in range(n):
     #get an input string
-    sample_str=input().strip()
-    #convert the string to a list
-    sample_lst=list(sample_str.split())
-    #create a dictionary
+    sample_str=input().split()
     
-    phoneBook[sample_lst[0]]=sample_lst[1]
+    phoneBook[sample_str[0]]=sample_str[1]
     # phoneBook=dict([(sample_lst[0],sample_lst[1])])
     # print(phoneBook)
     
 for i in range(n):
     #get the value of the keys
-    sample_key=str(input().strip())
-    #check if the key exist
-    if phoneBook.get(sample_key)!=None:
-        #concatenate the strings
-        print(sample_key+'='+phoneBook[sample_key])
-    else:
-        print("Not found") 
+    try:
+        sample_key=str(input().strip())
+        #check if the key exist
+        if phoneBook.get(sample_key)!=None:
+            #concatenate the strings
+            print(sample_key+'='+phoneBook[sample_key])
+        else:
+            print("Not found") 
+    except:
+        break
    
