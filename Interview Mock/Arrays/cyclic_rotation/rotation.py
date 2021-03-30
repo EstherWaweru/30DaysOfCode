@@ -45,8 +45,8 @@
 def solution(A, K):
     #rotate all elements
     # n=len(A)
-    # if K==0 or n/K==0 or n==K:
-    #     return A  
+    if K==0 or n/K==0 or n==K:
+        return A  
     
     # K=K%n
     # A=A[n-K:]+A[:K-1]
